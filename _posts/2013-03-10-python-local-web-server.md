@@ -17,3 +17,9 @@ python -m SimpleHTTPServer 8888
 可以创建一个端口为`8888`的本地web服务器(在浏览器中输入`http://localhost:8888`查看)
 
 需要注意的是所建的服务器的根目录默认为当前运行`python`命令的目录。
+
+注：在Python3中`SimpleHTTPServer` module被并入`http.server`里了，所以在Python3里用一下命令：
+
+{% highlight python %}
+python3 -m http.server
+{% endhighlight %}
